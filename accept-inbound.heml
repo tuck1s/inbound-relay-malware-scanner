@@ -1,0 +1,73 @@
+<heml>
+  <head>
+    <subject>Thank you for your message</subject>
+    <style>
+			body { background: white; font-family: Georgia, Times, serif; text-align: center;}
+			h1 { color: green; text-align: center; font-size: 32px; font-weight: bold; font-family: Georgia, Times, serif; }
+			h2 { color: green; text-align: center; font-size: 24px; font-weight: bold; font-family: Georgia, Times, serif; }
+			a {color:green; text-decoration: none; }
+			a.footer {color:white; text-decoration: none }
+      button { background: orange; font-size: 24px; font-weight: bold; font-family: Arial, sans-serif; color: white; padding: 20px 20px; }
+			container#footer {
+				background-color: green;
+				background-image: url('https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/footer-bg.jpg')
+			}
+			p.footer {text-align: center; font-size: 12px; font-family: Arial, sans-serif; color: white; }
+			p.footer_title  {text-align: center; font-size: 24px; font-weight: bold; font-family: Georgia, Times, serif; color: white; }
+
+		</style>
+  </head>
+  <body>
+    <container>
+			<row>
+				<column>
+						<a href="#"><img src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/avocado-logo-sml.png" alt=""></a>
+			  </column>
+				<column>
+				  <p>
+						<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/twitter.png" alt=""></a>
+						<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/facebook.png" alt=""></a>
+						<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/instagram.png" alt=""></a>
+						<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/gplus.png" alt=""></a>
+						<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/github.png" alt=""></a>
+				  </p>
+			  </column>
+			</row>
+			<h1>Thank you for your message</h1>
+			<p>
+			  We've received your message and our trusty Helpdesk team will shortly be processing it.
+    <container id="footer">
+			<row>
+				<column>
+					<p class="footer_title">
+						<img style="margin:auto" src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/white-avocado-logo-sml.png" alt="" />
+						<br>Avocado Personal Loans and Savings
+				  </p>
+  				<p class="footer">
+  					Avocado Industries, 1200 Farmers Way, Jacksonville, FL 20202
+  					<br>
+  					&copy; 2018 Avocado Industries. All rights reserved.
+					<br>
+					<br>
+					<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/twitter.png" alt="" border="0"></a>
+					<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/facebook.png" alt="" border="0"></a>
+					<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/instagram.png" alt="" border="0"></a>
+					<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/gplus.png" alt="" border="0"></a>
+					<a href="#"><img inline src="https://raw.githubusercontent.com/sparkpost/heml/master/examples/assets/github.png" alt="" border="0"></a>
+				  </p>
+				</column>
+			</row>
+ 			<row>
+				<column>
+					<p class="footer"><a class="footer" href="#">Privacy Policy</a></p>
+				</column>
+				<column>
+					<p class="footer"><a class="footer" href="#">Update email</a></p>
+				</column>
+				<column>
+					<p class="footer"><a class="footer" href="#">Unsubscribe</a></p>
+				</column>
+			</row>
+   </container>
+  </body>
+</heml>
